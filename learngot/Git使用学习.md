@@ -268,3 +268,21 @@ $ git stash list
 $ git stash apply stash@{stash编号}
 ```
 
+#### 分支删除
+
+不合并分支下删除分支，需要强制删除并丢失修改
+
+```
+$ git branch -D <分支名>
+```
+
+#### 多人协作
+
+查看远程库信息
+
+`$ git remote -v`
+
+推送分支
+
+`$ git push orgin <分支名>`
+
